@@ -17,6 +17,7 @@ add_message_files(
    MasterboardDataMsg.msg
    RobotModeDataMsg.msg
    ToolDataMsg.msg
+   TrajectoryFeedback.msg
 )
 
 ## Generate services in the 'srv' folder
