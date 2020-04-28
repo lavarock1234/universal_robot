@@ -1,0 +1,8 @@
+# Set program state
+
+uint8 state
+uint8 RESUME = 0
+uint8 PAUSE = 1
+---
+bool success   # indicate successful run of service
+string message # informational, e.g. for error messages
